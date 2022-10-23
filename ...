@@ -1,0 +1,41 @@
+num1 = float(input("ENTER YOUR NUMBER :"))
+
+tor = input("ENTER YOUR PRAMTER :")
+
+num2 = float(input("ENTER YOUR NUMBER :"))
+
+if tor == "+":
+
+	print(num1+num2)
+
+	print(num1 ,tor ,num2 ,"=" ,num1 +num2)
+
+	
+
+elif tor == "/":
+
+	print(num1 / num2)
+
+	print(num1 , tor ,num2 ,"=" ,num1 /num2)
+
+	
+
+elif tor =="*":
+
+	print(num1 * num2)
+
+	print(num1 , tor ,num2 ,"=" ,num1 *num2)
+
+	
+
+elif tor =="-":
+
+	print(num1 - num2)
+
+	print(num1 , tor ,num2  , "=" ,num1 -num2)
+
+	
+
+else:
+
+	print("error")
